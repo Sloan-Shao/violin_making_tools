@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">刨子与木材交互的切削原理图</title>
+  <desc id="desc">展示刃口切入木材、刨花形成、刨口压住木纤维以及顺纹和逆纹的差异。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ed; }
+      .panel { fill: #fffdf8; stroke: #d8ccb7; stroke-width: 2; }
+      .title { font: 700 42px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #263238; }
+      .subtitle { font: 400 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #59666b; }
+      .h { font: 700 28px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #253238; }
+      .txt { font: 400 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #3f4a4e; }
+      .small { font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #657276; }
+      .wood { fill: #c99b64; stroke: #7a5530; stroke-width: 2; }
+      .grain { stroke: #8a6238; stroke-width: 3; fill: none; opacity: .7; }
+      .plane { fill: #9bb0a5; stroke: #455a64; stroke-width: 3; }
+      .blade { fill: #d9dfe3; stroke: #53656d; stroke-width: 3; }
+      .edge { fill: #be6f43; }
+      .chip { fill: none; stroke: #be6f43; stroke-width: 7; stroke-linecap: round; }
+      .arrow { stroke: #be6f43; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .bad { stroke: #b94747; stroke-width: 5; fill: none; stroke-linecap: round; }
+      .good { stroke: #3d7c59; stroke-width: 5; fill: none; stroke-linecap: round; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#be6f43"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="820"/>
+  <text class="title" x="70" y="76">刨子与木材的切削原理</text>
+  <text class="subtitle" x="70" y="114">刃口、刨口、切削角和木纹方向共同决定表面质量。</text>
+
+  <rect class="panel" x="70" y="155" width="1260" height="300" rx="10"/>
+  <text class="h" x="105" y="205">薄刨花是怎样形成的</text>
+  <text class="txt" x="105" y="237">刃口切入木材，木纤维被切开并卷成刨花；刨口前缘帮助压住未切木纤维。</text>
+
+  <rect class="wood" x="150" y="350" width="600" height="58" rx="5"/>
+  <path class="grain" d="M175 372 C260 348 335 395 420 372 S580 348 720 376"/>
+  <path class="plane" d="M360 255 L720 255 L770 345 L330 345 Z"/>
+  <path class="blade" d="M510 220 L570 220 L590 350 L530 350 Z"/>
+  <path class="edge" d="M530 350 L590 350 L580 368 L520 368 Z"/>
+  <path class="chip" d="M555 350 C540 315 555 290 600 275 C645 260 655 230 625 205"/>
+  <path class="arrow" d="M245 292 L330 292"/>
+  <text class="small" x="205" y="282">推进方向</text>
+  <path class="arrow" d="M602 360 L680 318"/>
+  <text class="small" x="690" y="316">刨花</text>
+  <path class="arrow" d="M505 405 L535 365"/>
+  <text class="small" x="405" y="430">刃口实际切入点</text>
+  <path class="arrow" d="M760 300 L728 345"/>
+  <text class="small" x="770" y="303">刨口前缘压住木纤维</text>
+
+  <rect class="panel" x="70" y="505" width="600" height="235" rx="10"/>
+  <rect class="panel" x="730" y="505" width="600" height="235" rx="10"/>
+
+  <text class="h" x="105" y="553">顺纹：更容易干净</text>
+  <rect class="wood" x="115" y="655" width="360" height="42" rx="4"/>
+  <path class="grain good" d="M140 676 C210 650 285 655 350 678 C390 692 430 690 465 680"/>
+  <path class="plane" d="M245 590 L430 590 L455 650 L225 650 Z"/>
+  <path class="blade" d="M315 565 L350 565 L365 655 L330 655 Z"/>
+  <path class="edge" d="M330 655 L365 655 L356 668 L322 668 Z"/>
+  <path class="arrow" d="M150 610 L220 610"/>
+  <text class="small" x="500" y="674">刃口顺着木纤维切入，表面较光洁。</text>
+
+  <text class="h" x="765" y="553">逆纹：容易撕裂</text>
+  <rect class="wood" x="775" y="655" width="360" height="42" rx="4"/>
+  <path class="grain bad" d="M800 682 C875 705 950 695 1015 670 C1060 653 1100 656 1125 672"/>
+  <path class="bad" d="M952 657 L972 620 L994 657"/>
+  <path class="plane" d="M905 590 L1090 590 L1115 650 L885 650 Z"/>
+  <path class="blade" d="M975 565 L1010 565 L1025 655 L990 655 Z"/>
+  <path class="edge" d="M990 655 L1025 655 L1016 668 L982 668 Z"/>
+  <path class="arrow" d="M810 610 L880 610"/>
+  <text class="small" x="1160" y="674">刃口掀起木纤维，可能产生撕裂。</text>
+
+  <text class="small" x="70" y="790">遇到撕裂时，优先尝试：减小切削量、换方向、缩小刨口、重新磨利刃口。</text>
+</svg>
+

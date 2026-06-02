@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">刨子的分类对比图</title>
+  <desc id="desc">对比小提琴制作中常见的平底指刨、弧底指刨、小块刨和长刨的形状与用途。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ed; }
+      .panel { fill: #fffdf8; stroke: #d8ccb7; stroke-width: 2; }
+      .title { font: 700 42px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #263238; }
+      .subtitle { font: 400 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #59666b; }
+      .h { font: 700 28px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #253238; }
+      .txt { font: 400 20px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #3f4a4e; }
+      .small { font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #657276; }
+      .body { fill: #9bb0a5; stroke: #455a64; stroke-width: 3; }
+      .sole { fill: none; stroke: #2f3d43; stroke-width: 5; stroke-linecap: round; }
+      .blade { fill: #d9dfe3; stroke: #53656d; stroke-width: 3; }
+      .wood { fill: #c99b64; stroke: #7a5530; stroke-width: 2; }
+      .accent { fill: #be6f43; }
+      .rule { stroke: #d8ccb7; stroke-width: 2; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#be6f43"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="820"/>
+  <text class="title" x="70" y="76">刨子的分类对比</text>
+  <text class="subtitle" x="70" y="114">先看“底面形状”和“工作场景”，再决定需要哪一类刨子。</text>
+
+  <rect class="panel" x="70" y="160" width="600" height="250" rx="10"/>
+  <rect class="panel" x="730" y="160" width="600" height="250" rx="10"/>
+  <rect class="panel" x="70" y="470" width="600" height="250" rx="10"/>
+  <rect class="panel" x="730" y="470" width="600" height="250" rx="10"/>
+
+  <!-- Flat finger plane -->
+  <text class="h" x="105" y="208">平底指刨</text>
+  <text class="txt" x="105" y="240">小而灵活，底面接近平直</text>
+  <text class="small" x="105" y="272">用途：外拱修整、边缘过渡、局部精修</text>
+  <rect class="wood" x="105" y="346" width="245" height="28" rx="4"/>
+  <path class="body" d="M145 305 Q225 250 305 305 L330 345 L120 345 Z"/>
+  <path class="sole" d="M120 345 L330 345"/>
+  <path class="blade" d="M230 282 L266 282 L250 345 L214 345 Z"/>
+  <path class="accent" d="M213 345 L250 345 L244 358 L207 358 Z"/>
+  <path d="M395 330 L515 330" stroke="#be6f43" stroke-width="4" marker-end="url(#arrow)"/>
+  <text class="small" x="395" y="312">适合轻微曲面</text>
+
+  <!-- Curved finger plane -->
+  <text class="h" x="765" y="208">弧底指刨</text>
+  <text class="txt" x="765" y="240">底面带弧，能进入凹曲面</text>
+  <text class="small" x="765" y="272">用途：面板、背板内侧挖削</text>
+  <path class="wood" d="M770 360 Q885 315 1000 360 L1000 382 L770 382 Z"/>
+  <path class="body" d="M810 305 Q890 250 970 305 L995 342 Q890 370 785 342 Z"/>
+  <path class="sole" d="M785 342 Q890 370 995 342"/>
+  <path class="blade" d="M890 282 L926 282 L910 351 L874 351 Z"/>
+  <path class="accent" d="M874 351 L910 351 L902 363 L866 363 Z"/>
+  <path d="M1065 330 C1115 300 1170 300 1220 330" fill="none" stroke="#be6f43" stroke-width="4" marker-end="url(#arrow)"/>
+  <text class="small" x="1060" y="284">贴合凹面</text>
+
+  <!-- Block plane -->
+  <text class="h" x="105" y="518">小块刨</text>
+  <text class="txt" x="105" y="550">比指刨更稳，适合较直区域</text>
+  <text class="small" x="105" y="582">用途：接缝微调、小零件、琴颈局部</text>
+  <rect class="wood" x="105" y="660" width="285" height="30" rx="4"/>
+  <path class="body" d="M140 610 L340 610 L370 657 L115 657 Z"/>
+  <path class="sole" d="M115 657 L370 657"/>
+  <path class="blade" d="M232 590 L275 590 L258 657 L215 657 Z"/>
+  <circle cx="178" cy="627" r="13" fill="#6f847b" stroke="#455a64" stroke-width="3"/>
+  <path d="M420 638 L540 638" stroke="#be6f43" stroke-width="4" marker-end="url(#arrow)"/>
+  <text class="small" x="420" y="620">控制平直度</text>
+
+  <!-- Jointer / long plane -->
+  <text class="h" x="765" y="518">长刨 / 接缝刨</text>
+  <text class="txt" x="765" y="550">长底面提供平直基准</text>
+  <text class="small" x="765" y="582">用途：面板、背板拼板接缝</text>
+  <rect class="wood" x="765" y="660" width="420" height="30" rx="4"/>
+  <path class="body" d="M810 610 L1140 610 L1190 657 L775 657 Z"/>
+  <path class="sole" d="M775 657 L1190 657"/>
+  <path class="blade" d="M955 590 L1005 590 L986 657 L936 657 Z"/>
+  <path d="M1215 638 L1285 638" stroke="#be6f43" stroke-width="4" marker-end="url(#arrow)"/>
+  <text class="small" x="1215" y="620">做直线</text>
+
+  <line class="rule" x1="70" y1="760" x2="1330" y2="760"/>
+  <text class="small" x="70" y="792">记忆法：平底负责“平”，弧底负责“曲”，短刨负责“局部”，长刨负责“基准”。</text>
+</svg>
+
