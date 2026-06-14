@@ -1,0 +1,17 @@
+{
+  "prompt": "复古木工教材风格，浅黄色纸张背景，一把小提琴制作用小型指刨的真实手绘爆炸结构图，中文标注：刨身、刨铁、刃口、刨口、固定螺丝。不要英文，不要水印。",
+  "model": null,
+  "size": null,
+  "quality": null,
+  "api_mode": "images",
+  "count": 1,
+  "parallel": 1,
+  "api_url": "https://***/v1/images/generations",
+  "results": [
+    {
+      "index": 1,
+      "ok": false,
+      "error": "HTTP 503: {\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model dall-e under group GPT Image-2 (distributor) (request id: 20260607075213323125865YTmpGozD)\",\"type\":\"new_api_error\"}}"
+    }
+  ]
+}

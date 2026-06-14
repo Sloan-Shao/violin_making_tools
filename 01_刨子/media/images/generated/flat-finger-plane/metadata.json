@@ -1,0 +1,17 @@
+{
+  "prompt": "复古木工教材风格的真实手绘技术插图，浅黄色纸张背景，铅笔线稿加柔和水彩阴影，主题是小提琴制作工具：平底指刨的爆炸结构零部件组成图。画面中展示一个小型金属平底指刨，零部件分解悬浮排列，有细虚线连接到组装位置，清晰中文标注。必须使用简体中文标签：刨身、平底、刨铁、刃口、压板、固定螺丝、刨口、调节旋钮、刨花方向。风格参考传统木工工具说明书插图，真实比例，结构准确，适合教学，文字清楚可读，不要英文，不要水印，不要网址。",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "api_mode": "images",
+  "count": 1,
+  "parallel": 1,
+  "api_url": "https://***/v1/images/generations",
+  "results": [
+    {
+      "index": 1,
+      "ok": false,
+      "error": "Remote end closed connection without response"
+    }
+  ]
+}
